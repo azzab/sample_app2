@@ -9,10 +9,13 @@ gem 'sqlite3'
 
 
 group :test do
-   gem 'rspec', '2.5.0'
+   gem 'rspec', '>= 2.5.0'
+   
+    gem 'rspec-rails', '>= 2.5.0'
   gem 'webrat', '0.7.1'
 end
 
 group :development do
-   gem 'rspec', '2.5.0'
+   gem 'rspec', '>= 2.5.0'
+   gem 'rspec-rails', '>= 2.5.0'
 end
